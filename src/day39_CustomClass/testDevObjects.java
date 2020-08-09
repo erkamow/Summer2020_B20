@@ -12,6 +12,18 @@ public class testDevObjects {
                 12000,"Amazon");
         emp2.getInfo();
 
+        System.out.println("========================================================");
+
+        testDev[] employees = { new testDev(),new testDev()};
+        employees[0].setInfo("M.Erkam Afsin",'M',145354,540603,"SDET",
+                8000,"Ultimate Turkey");
+        employees[1].setInfo("A.ammar Afsin",'M',123456,654321,"Dev Lead",
+                12000,"Amazon");
+        for(testDev empEach : employees){
+            empEach.getInfo();
+        }
+
+
     }
 
 
