@@ -14,4 +14,19 @@ public class Car {
     double mileage;
     double price;
 
+    public  void setInfo(String carBrand,String carModel,int carYear,
+                        String carColor,double carMileage,double carPrice){
+
+        brand = carBrand;
+        model = carModel;
+        year = carYear;
+        color = carColor;
+        mileage = carMileage;
+        price = carPrice;
+
+
+    }
+    public void getCarInfo(){
+        System.out.println(year +" "+brand+" "+model+", "+ color+", "+mileage+", $"+price);
+    }
 }
