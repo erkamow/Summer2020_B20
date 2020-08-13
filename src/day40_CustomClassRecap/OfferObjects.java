@@ -12,7 +12,7 @@ public class OfferObjects {
 
 
 
-        ofr1.setOffer(100000,"Atlanta",true,
+        ofr1.setOffer(180000,"Atlanta",true,
                 true,false,"SDET",true);
         ofr2.setOffer(120000,"Dallas",true,
                 false,true,"Test Lead",true);
@@ -21,11 +21,20 @@ public class OfferObjects {
 
         ArrayList<offer> offerList = new ArrayList<>();
         offerList.addAll(Arrays.asList(ofr1,ofr2,ofr3));
-        offerList.removeIf(p ->p.salary < 120000);
+        // offerList.removeIf(p ->p.salary < 120000);
+         offerList.removeIf(p ->p.salary < 180000 || !p.location.equals("Atlanta"));
 
         for(offer eachOfr : offerList){
             eachOfr.getOfferInfo();
         }
+
+        System.out.println("============================================================");
+
+        // offerList.removeIf(p ->p.salary < 180000 || !p.location.equals("Atlanta"));
+       // System.out.println("Number of offers: "+offerList.size());
+
+
+
 
     }
 }
