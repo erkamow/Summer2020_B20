@@ -20,6 +20,14 @@ public class Cat {
 
     }
 
+    public void eat(String catFood){
+        System.out.println(name+" is eating "+catFood);
+    }
+
+    public void drink(String catDrink){
+        System.out.println(name+" is drinking "+catDrink);
+    }
+
     public String toString(){
         return "Name: "+name+" Age: "+age+" Gender: "+gender+" Color: "+color+" Breed: "+breed;
     }
