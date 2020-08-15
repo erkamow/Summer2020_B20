@@ -63,4 +63,8 @@ public class Carpet {
         System.out.println("==========================================================");
     }
 
+    public String toString(){
+        return "Width: "+width+"Length: "+length+"Unit price: "+unitPrice+"Is persian: "+isPersian+"total price: "+calCost();
+    }
+
 }
