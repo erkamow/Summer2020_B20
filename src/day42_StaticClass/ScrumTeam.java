@@ -40,7 +40,7 @@ public class ScrumTeam {
 
     }
     public void removeDeveloper(long employeeID){
-        developers.removeIf(p->employeeID == employeeID);
+        developers.removeIf(p->p.employeeID == employeeID);
     }
 
     public  String toString(){

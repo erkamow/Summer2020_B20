@@ -32,5 +32,8 @@ public class CapitalOne {
         for(Developer eachDev: team1.developers){
             System.out.println(eachDev.name+" : $"+eachDev.salary);
         }
+        team1.removeDeveloper(34567898);
+        team1.removeTester(12345678);
+        System.out.println(team1);
     }
 }
