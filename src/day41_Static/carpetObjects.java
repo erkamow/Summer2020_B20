@@ -25,7 +25,7 @@ public class carpetObjects {
 
 
         for(Carpet eacCarpet : carpetsList){
-            eacCarpet.getCarpetInfo();
+            System.out.println(eacCarpet);
         }
 
 

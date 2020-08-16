@@ -64,7 +64,7 @@ public class Carpet {
     }
 
     public String toString(){
-        return "Width: "+width+"Length: "+length+"Unit price: "+unitPrice+"Is persian: "+isPersian+"total price: "+calCost();
+        return "Width: "+width+", Length: "+length+" ,Unit price: "+"$"+unitPrice+", Is persian: "+isPersian+", total price: "+"$"+calCost();
     }
 
 }
