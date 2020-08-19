@@ -1,0 +1,9 @@
+package day43_Static;
+
+public class Test_StaticBlock {
+    public static void main(String[] args) {
+        System.out.println(StaticBlock3.a);
+        System.out.println(StaticBlock3.b);
+        System.out.println(StaticBlock3.c);
+    }
+}
