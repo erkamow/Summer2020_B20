@@ -1,4 +1,4 @@
-package officeHours;
+package day44_Constructor;
 
 /*1. Create a class called Employee
         instance variables:
@@ -18,6 +18,14 @@ public class employee {
     double salary;
     char gender;
 
+   static boolean isEmployed ;
+   static boolean hasSalary ;
+
+   static {   // always runs first, only one time.
+       isEmployed = true;
+       hasSalary = true;
+   }
+
 
     public void setInfo(String name,long ID,double ssn,String jobTitle,double salary,char gender){
 
@@ -34,6 +42,7 @@ public class employee {
     public String toString(){
         return "Name: "+name+", ID: "+ID+", ssn: "+ssn+", jobTitle: "+jobTitle+", salary: "+salary+", gender: "+gender;
     }
+
 
 
 }
