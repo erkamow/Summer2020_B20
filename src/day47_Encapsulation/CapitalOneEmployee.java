@@ -2,9 +2,9 @@ package day47_Encapsulation;
 
 public class CapitalOneEmployee {
 
-    String employeeName;
-    int employeeAge;
-    String jobTitle;
+   public String employeeName;
+    public int employeeAge;
+     public String jobTitle;
     public static String CompanyName;
     static {
         CompanyName = "capitalOne";

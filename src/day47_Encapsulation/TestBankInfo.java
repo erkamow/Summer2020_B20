@@ -8,6 +8,7 @@ public class TestBankInfo {
         //emp1.setSalary(135000);
         //emp1.setAdress();
         //emp1.setID();
+        emp1.employeeName = "kubra";
         System.out.println(emp1+"\nUser ID: "+emp1.getID()+"\nSalary: "+emp1.getSalary()+"\nAddress: "+emp1.getAdress());
     }
 }
