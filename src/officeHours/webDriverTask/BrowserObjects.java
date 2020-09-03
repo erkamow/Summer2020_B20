@@ -17,5 +17,10 @@ public class BrowserObjects {
         opr1.getURL();
         opr1.close();
         System.out.println("url Name: "+opr1.getURL()+"\nclosing browser: "+opr1.close());
+        System.out.println("=======================================");
+        WebDriver default1 = new WebDriver();
+        default1.getURL();
+        default1.close();
+        System.out.println("url Name: "+default1.getURL()+"\nclosing browser: "+default1.close());
     }
 }
