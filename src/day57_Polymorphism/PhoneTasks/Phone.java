@@ -1,4 +1,4 @@
-package day57_polymorphism.PhoneTask;
+package day57_Polymorphism.PhoneTasks;
 
 /*
     4. create an abstract class named Phone

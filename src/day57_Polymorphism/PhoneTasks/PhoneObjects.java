@@ -1,4 +1,4 @@
-package day57_polymorphism.PhoneTask;
+package day57_Polymorphism.PhoneTasks;
 
 public class PhoneObjects {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day57_polymorphism.PhoneTask;
+package day57_Polymorphism.PhoneTasks;
 
 public interface AppleApp extends Downloadable{
     String AppStoreName = "App Store";

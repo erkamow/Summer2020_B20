@@ -1,19 +1,19 @@
-package day57_polymorphism.EmployeeTask;
+package day57_Polymorphism.EmployeeTask;
 
-public class Developer extends Employee{
+public class ScrumMaster extends Employee{
 
-    public Developer(String name, int id, String jobTitle, double salary, char gender) {
+    public ScrumMaster(String name, int id, String jobTitle, double salary, char gender) {
         super(name, id, jobTitle, salary, gender);
     }
 
     @Override
     public void work() {
-        System.out.println("Developer "+name+" is working");
+        System.out.println("Scrum Master "+name+" is working");
     }
 
     @Override
     public String toString() {
-        return "Developer{" +
+        return "ScrumMaster{" +
                 "name='" + name + '\'' +
                 ", id=" + id +
                 ", jobTitle='" + jobTitle + '\'' +
